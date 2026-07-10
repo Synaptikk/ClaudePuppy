@@ -1,0 +1,17 @@
+# .gitignore
+
+# Local secrets & runtime state - never commit these
+*.token
+*puppy_token*
+puppy.cfg
+sanitizer.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Windows
+*.lnk
